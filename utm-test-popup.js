@@ -6,7 +6,7 @@
   let hasTestUTM = false;
 
   params.forEach((value, key) => {
-    if (key.toLowerCase().startsWith("utm_") && value.toLowerCase().includes("highgear")) {
+    if (key.toLowerCase().startsWith("utm_") && value.toLowerCase().includes("test")) {
       hasTestUTM = true;
     }
   });
